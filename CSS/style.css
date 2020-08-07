@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenido-header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../IMG/bg-girl.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenido-header .fondo{
+    width: 0%;
+    height: 100%;
+    max-width: 100%;
+    background-image: url(../IMG/bg-top.png);
+}
+
+.contenido-header .texto{
+    width: 90vw;
+    height: 100vh;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: fantasy;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    mix-blend-mode: multiply;
+}
